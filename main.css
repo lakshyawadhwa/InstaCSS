@@ -177,6 +177,11 @@ button
     width: auto;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+.video
+{
+
 }
 video
 {
@@ -188,6 +193,25 @@ video
     bottom:0;
 }
 
+<<<<<<< HEAD
+.playpause {
+    display: block;
+    background-image:url(https://d2uvvge0uswb28.cloudfront.net/static/dist/v0/img/svg/icon-play.svg);
+    background-repeat:no-repeat;
+    width:30%;
+    height:30%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+}
+
+=======
+>>>>>>> 6ec602be7c63308ab3984594d5595ee506aa3722
 .interaction
 {
     height: auto;
@@ -262,12 +286,21 @@ li
         height: auto;
         width:100%;
     }
+<<<<<<< HEAD
 
     .video-div
     {
         height: auto;
         width:100%;
 
+=======
+
+    .video-div
+    {
+        height: auto;
+        width:100%;
+
+>>>>>>> 6ec602be7c63308ab3984594d5595ee506aa3722
     }
 }
 
